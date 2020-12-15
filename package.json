@@ -21,7 +21,7 @@
     "url": "git+https://github.com/jasoncoxtw/react-safespaces.git"
   },
   "author": "Jason Cox",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jasoncoxtw/react-safespaces/issues"
   },
@@ -29,6 +29,12 @@
   "dependencies": {
     "react": "^17.0.1"
   },
+  "peerDependencies": {
+    "react": "^17.0.1"
+  },
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
